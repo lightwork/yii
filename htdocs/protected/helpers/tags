@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CArray	CArray.php	/^class CArray {$/;"	c
+array	CArray.php	/^		$array = array();$/;"	v
+array	CArray.php	/^		$array = array_reverse($array, TRUE);$/;"	v
+binary_search	CArray.php	/^	public static function binary_search($needle, $haystack, $nearest = FALSE, $sort = FALSE)$/;"	f
+callback_string	CArray.php	/^	public static function callback_string($str)$/;"	f
+command	CArray.php	/^			$command = $match[1];$/;"	v
+command	CArray.php	/^			$command = $str;$/;"	v
+extract	CArray.php	/^	public static function extract(array $search, $keys)$/;"	f
+found	CArray.php	/^		$found = array();$/;"	v
+high	CArray.php	/^				$high = $probe;$/;"	v
+high	CArray.php	/^		$high = count($haystack);$/;"	v
+high_distance	CArray.php	/^			$high_distance = $haystack[ceil($low)] - $needle;$/;"	v
+keys	CArray.php	/^		$keys = array_slice(func_get_args(), 1);$/;"	v
+low	CArray.php	/^				$low = $probe;$/;"	v
+low	CArray.php	/^		$low = 0;$/;"	v
+low_distance	CArray.php	/^			$low_distance = $needle - $haystack[floor($low)];$/;"	v
+map_recursive	CArray.php	/^	public static function map_recursive($callback, array $array)$/;"	f
+merge	CArray.php	/^	public static function merge()$/;"	f
+new_array	CArray.php	/^		$new_array = array();$/;"	v
+object	CArray.php	/^		$object = new $class;$/;"	v
+overwrite	CArray.php	/^	public static function overwrite($array1)$/;"	f
+params	CArray.php	/^			$params = NULL;$/;"	v
+params	CArray.php	/^			$params = preg_split('\/(?<!\\\\\\\\),\/', $match[2]);$/;"	v
+params	CArray.php	/^			$params = str_replace('\\,', ',', $params);$/;"	v
+probe	CArray.php	/^			$probe = ($high + $low) \/ 2;$/;"	v
+range	CArray.php	/^	public static function range($step = 10, $max = 100)$/;"	f
+remove	CArray.php	/^	public static function remove($key, & $array)$/;"	f
+result	CArray.php	/^		$result = array();$/;"	v
+rotate	CArray.php	/^	public static function rotate($source_array, $keep_keys = TRUE)$/;"	f
+to_object	CArray.php	/^	public static function to_object(array $array, $class = 'stdClass')$/;"	f
+total	CArray.php	/^		$total = func_num_args();$/;"	v
+unshift_assoc	CArray.php	/^	public static function unshift_assoc( array & $array, $key, $val)$/;"	f
+val	CArray.php	/^		$val = $array[$key];$/;"	v
+value	CArray.php	/^				$value = arr::to_object($value, $class);$/;"	v
+value	CArray.php	/^			$value = ($keep_keys === TRUE) ? $value : array_values($value);$/;"	v

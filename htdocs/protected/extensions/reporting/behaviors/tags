@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ReportingBehavior	ReportingBehavior.php	/^class ReportingBehavior extends CActiveRecordBehavior {$/;"	c
+_query	ReportingBehavior.php	/^	private function _query($command)$/;"	f
+addSelect	ReportingBehavior.php	/^	public function addSelect($string)$/;"	f
+addTimeSelect	ReportingBehavior.php	/^	public function addTimeSelect()$/;"	f
+class	ReportingBehavior.php	/^			$class = $this->collectionClass;$/;"	v
+col	ReportingBehavior.php	/^			$col = new $class($results);$/;"	v
+collectionClass	ReportingBehavior.php	/^	public $collectionClass = 'ReportCollection';$/;"	v
+columns	ReportingBehavior.php	/^		$columns = array();$/;"	v
+command	ReportingBehavior.php	/^		$command = $this->getOwner()->getCommand()->bindValues($params)->text;$/;"	v
+command	ReportingBehavior.php	/^		$command = $this->getOwner()->getCommand()->text;$/;"	v
+command	ReportingBehavior.php	/^		$command = $this->getOwner()->getCommandBuilder()->createSqlCommand($sql);$/;"	v
+condition	ReportingBehavior.php	/^		$condition = "$dateField BETWEEN CAST('{$range->getBegin(DateRange::MYSQL_DATETIME)}' AS DATETIME) AND CAST('{$range->getEnd(DateRange::MYSQL_DATETIME)}' AS DATETIME)";$/;"	v
+countAll	ReportingBehavior.php	/^	public function countAll($criteria = array())$/;"	f
+countSelect	ReportingBehavior.php	/^		$this->countSelect = $string;$/;"	v
+countSelect	ReportingBehavior.php	/^	public $countSelect = 'COUNT(*) AS COUNT';$/;"	v
+criteria	ReportingBehavior.php	/^		$criteria = $this->getOwner()->getDbCriteria();$/;"	v
+dateField	ReportingBehavior.php	/^		$dateField = $this->getDateFieldSql();$/;"	v
+dateField	ReportingBehavior.php	/^	public $dateField = 'entrydate';$/;"	v
+dayAlias	ReportingBehavior.php	/^	public $dayAlias = 'DAY';$/;"	v
+getDateFieldSql	ReportingBehavior.php	/^	public function getDateFieldSql()$/;"	f
+getReportSelect	ReportingBehavior.php	/^	public function getReportSelect()$/;"	f
+getReportingTimeGroup	ReportingBehavior.php	/^	public function getReportingTimeGroup($time)$/;"	f
+getReportingTimeOrder	ReportingBehavior.php	/^	public function getReportingTimeOrder($time) {$/;"	f
+hourAlias	ReportingBehavior.php	/^	public $hourAlias = 'HR';$/;"	v
+inRange	ReportingBehavior.php	/^	public function inRange(DateRange $range)$/;"	f
+minuteAlias	ReportingBehavior.php	/^	public $minuteAlias = 'MIN';$/;"	v
+monthAlias	ReportingBehavior.php	/^	public $monthAlias = 'MONTH';$/;"	v
+params	ReportingBehavior.php	/^		$params = $this->getOwner()->getDbCriteria()->params;$/;"	v
+parts	ReportingBehavior.php	/^		$parts = array($/;"	v
+queryAlias	ReportingBehavior.php	/^	public $queryAlias = 'R';$/;"	v
+queryByDay	ReportingBehavior.php	/^	public function queryByDay()$/;"	f
+queryByHour	ReportingBehavior.php	/^	public function queryByHour()$/;"	f
+reportSelect	ReportingBehavior.php	/^		$this->reportSelect = $select;$/;"	v
+reportSelect	ReportingBehavior.php	/^	public $reportSelect = '*';$/;"	v
+results	ReportingBehavior.php	/^		$results = $command->queryAll();$/;"	v
+s	ReportingBehavior.php	/^			$s = explode(',', $s);$/;"	v
+s	ReportingBehavior.php	/^		$s = $this->reportSelect;$/;"	v
+secondAlias	ReportingBehavior.php	/^	public $secondAlias = 'SEC';$/;"	v
+select	ReportingBehavior.php	/^		$select = $this->getReportSelect();$/;"	v
+select	ReportingBehavior.php	/^		$select = array($/;"	v
+setCountSelect	ReportingBehavior.php	/^	public function setCountSelect($string)$/;"	f
+setReportSelect	ReportingBehavior.php	/^	public function setReportSelect($select)$/;"	f
+sql	ReportingBehavior.php	/^		$sql = 'SELECT ' . $select;$/;"	v
+t	ReportingBehavior.php	/^		$t = $this->getOwner()->getTableAlias(false, false);$/;"	v
+yearAlias	ReportingBehavior.php	/^	public $yearAlias = 'YEAR';$/;"	v

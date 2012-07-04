@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+EEavBehavior	EEavBehavior.php	/^class EEavBehavior extends CActiveRecordBehavior {$/;"	c
+__construct	EEavBehavior.php	/^    public function __construct() {$/;"	f
+afterDelete	EEavBehavior.php	/^    public function afterDelete($event) {$/;"	f
+afterFind	EEavBehavior.php	/^    public function afterFind($event) {$/;"	f
+afterSave	EEavBehavior.php	/^    public function afterSave($event) {$/;"	f
+attach	EEavBehavior.php	/^    public function attach($owner) {$/;"	f
+attribute	EEavBehavior.php	/^                $attribute = $conn->quoteValue($attribute);$/;"	v
+attribute	EEavBehavior.php	/^            $attribute = $this->stripPrefix($row[$this->attributeField]);$/;"	v
+attribute	EEavBehavior.php	/^            $attribute = substr($attribute, strlen($this->attributesPrefix));$/;"	v
+attributeField	EEavBehavior.php	/^            $this->attributeField => $attribute,$/;"	v
+attributeField	EEavBehavior.php	/^    public $attributeField = 'attribute';$/;"	v
+attributes	EEavBehavior.php	/^            $attributes = $this->attributes->keys;$/;"	v
+attributes	EEavBehavior.php	/^            $attributes = $this->getSafeAttributesArray();$/;"	v
+attributes	EEavBehavior.php	/^        $this->attributes = new CAttributeCollection;$/;"	v
+attributes	EEavBehavior.php	/^    protected $attributes = NULL;$/;"	v
+attributesPrefix	EEavBehavior.php	/^    public $attributesPrefix = '';$/;"	v
+cache	EEavBehavior.php	/^            $this->cache = new CDummyCache;$/;"	v
+cache	EEavBehavior.php	/^        $this->cache = Yii::app()->getComponent($this->cacheId);$/;"	v
+cache	EEavBehavior.php	/^    protected $cache = NULL;$/;"	v
+cacheId	EEavBehavior.php	/^    public $cacheId = '';$/;"	v
+changedAttributes	EEavBehavior.php	/^        $this->changedAttributes = new CList;$/;"	v
+changedAttributes	EEavBehavior.php	/^    protected $changedAttributes = NULL;$/;"	v
+conn	EEavBehavior.php	/^        $conn = $this->getOwner()->getDbConnection();$/;"	v
+criteria	EEavBehavior.php	/^        $criteria = $this->getFindByEavAttributesCriteria($attributes);$/;"	v
+criteria	EEavBehavior.php	/^        $criteria = new CDbCriteria();$/;"	v
+criteria	EEavBehavior.php	/^        $criteria = new CDbCriteria;$/;"	v
+data	EEavBehavior.php	/^        $data = $this->cache->get($this->getCacheKey());$/;"	v
+data	EEavBehavior.php	/^        $data = $this->getLoadEavAttributesCommand($attributes)->query();$/;"	v
+data	EEavBehavior.php	/^        $data = array($/;"	v
+deleteEavAttributes	EEavBehavior.php	/^    public function deleteEavAttributes($attributes = array(), $save = FALSE) {$/;"	f
+entityField	EEavBehavior.php	/^            $this->entityField => $this->getModelId(),$/;"	v
+entityField	EEavBehavior.php	/^    public $entityField = 'entity';$/;"	v
+getCacheKey	EEavBehavior.php	/^    protected function getCacheKey() {$/;"	f
+getDeleteCommand	EEavBehavior.php	/^    protected function getDeleteCommand($attributes = array()) {$/;"	f
+getDeleteEavAttributesCriteria	EEavBehavior.php	/^    protected function getDeleteEavAttributesCriteria($attributes = array()) {$/;"	f
+getEavAttribute	EEavBehavior.php	/^    public function getEavAttribute($attribute) {$/;"	f
+getEavAttributes	EEavBehavior.php	/^    public function getEavAttributes($attributes = array()) {$/;"	f
+getFindByEavAttributesCriteria	EEavBehavior.php	/^    protected function getFindByEavAttributesCriteria($attributes){$/;"	f
+getLoadEavAttributesCommand	EEavBehavior.php	/^    protected function getLoadEavAttributesCommand($attributes) {$/;"	f
+getLoadEavAttributesCriteria	EEavBehavior.php	/^    protected function getLoadEavAttributesCriteria($attributes = array()) {$/;"	f
+getModelId	EEavBehavior.php	/^    protected function getModelId() {$/;"	f
+getModelTableFk	EEavBehavior.php	/^    protected function getModelTableFk() {$/;"	f
+getSafeAttributesArray	EEavBehavior.php	/^    protected function getSafeAttributesArray() {$/;"	f
+getSaveEavAttributeCommand	EEavBehavior.php	/^    protected function getSaveEavAttributeCommand($attribute, $value) {$/;"	f
+hasSafeAttribute	EEavBehavior.php	/^    protected function hasSafeAttribute($attribute) {$/;"	f
+i	EEavBehavior.php	/^        $i = 0;$/;"	v
+loadEavAttributes	EEavBehavior.php	/^    public function loadEavAttributes($attributes) {$/;"	f
+loadQueue	EEavBehavior.php	/^        $loadQueue = new CList;$/;"	v
+modelTableFk	EEavBehavior.php	/^            $this->modelTableFk = $modelTableFk;$/;"	v
+modelTableFk	EEavBehavior.php	/^            $this->modelTableFk = $this->getOwner()->getTableSchema()->primaryKey;$/;"	v
+modelTableFk	EEavBehavior.php	/^    protected $modelTableFk = '';$/;"	v
+pk	EEavBehavior.php	/^        $pk = $this->getModelTableFk();$/;"	v
+preload	EEavBehavior.php	/^    public $preload = TRUE;$/;"	v
+safeAttributes	EEavBehavior.php	/^        $this->safeAttributes = new CList;$/;"	v
+safeAttributes	EEavBehavior.php	/^    protected $safeAttributes = NULL;$/;"	v
+saveEavAttributes	EEavBehavior.php	/^    public function saveEavAttributes($attributes) {$/;"	f
+setEavAttribute	EEavBehavior.php	/^    public function setEavAttribute($attribute, $value, $save = FALSE) {$/;"	f
+setEavAttributes	EEavBehavior.php	/^    public function setEavAttributes($attributes, $save = FALSE) {$/;"	f
+setModelTableFk	EEavBehavior.php	/^    public function setModelTableFk($modelTableFk) {$/;"	f
+setSafeAttributes	EEavBehavior.php	/^    public function setSafeAttributes($safeAttributes) {$/;"	f
+stripPrefix	EEavBehavior.php	/^    protected function stripPrefix($attribute) {$/;"	f
+tableName	EEavBehavior.php	/^    public $tableName = '';$/;"	v
+value	EEavBehavior.php	/^                    $value = $conn->quoteValue($value);$/;"	v
+value	EEavBehavior.php	/^                $value = is_array($current) ? $current[] = $value : array($current, $value);$/;"	v
+value	EEavBehavior.php	/^            $value = $row[$this->valueField];$/;"	v
+valueField	EEavBehavior.php	/^            $this->valueField => $value,$/;"	v
+valueField	EEavBehavior.php	/^    public $valueField = 'value';$/;"	v
+values	EEavBehavior.php	/^                    $values = array($values);$/;"	v
+values	EEavBehavior.php	/^                $values = $conn->quoteValue($values);$/;"	v
+values	EEavBehavior.php	/^        $values = $this->getEavAttributes(array($attribute));$/;"	v
+values	EEavBehavior.php	/^        $values = array();$/;"	v
+withEavAttributes	EEavBehavior.php	/^    public function withEavAttributes($attributes = array()) {$/;"	f

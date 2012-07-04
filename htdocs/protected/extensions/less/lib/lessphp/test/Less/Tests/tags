@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ParserTest	ParserTest.php	/^class ParserTest extends \\PHPUnit_Framework_TestCase$/;"	c
+css	ParserTest.php	/^        $css = file_get_contents($css);$/;"	v
+css	ParserTest.php	/^        $css = glob(__DIR__."\/Fixtures\/less.js\/css\/*.css");$/;"	v
+css	ParserTest.php	/^        $css = glob(__DIR__."\/Fixtures\/less.php\/css\/*.css");$/;"	v
+less	ParserTest.php	/^        $less = $parser->parseFile($less)->getCss();$/;"	v
+less	ParserTest.php	/^        $less = glob(__DIR__."\/Fixtures\/less.js\/less\/*.less");$/;"	v
+less	ParserTest.php	/^        $less = glob(__DIR__."\/Fixtures\/less.php\/less\/*.less");$/;"	v
+lessJsProvider	ParserTest.php	/^    public function lessJsProvider()$/;"	f
+lessPhpProvider	ParserTest.php	/^    public function lessPhpProvider()$/;"	f
+parser	ParserTest.php	/^        $parser = new Parser();$/;"	v
+testLessJsCssGeneration	ParserTest.php	/^    public function testLessJsCssGeneration($less, $css)$/;"	f
+testLessPhpCssGeneration	ParserTest.php	/^    public function testLessPhpCssGeneration($less, $css)$/;"	f

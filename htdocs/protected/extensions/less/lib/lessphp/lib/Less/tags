@@ -1,0 +1,203 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Environment	Environment.php	/^class Environment$/;"	c
+Parser	Parser.php	/^class Parser {$/;"	c
+__construct	Environment.php	/^    public function __construct()$/;"	f
+__construct	Parser.php	/^    public function __construct(\\Less\\Environment $env = null)$/;"	f
+__toString	Parser.php	/^    public function __toString()$/;"	f
+_percent	Environment.php	/^    public function _percent()$/;"	f
+a	Environment.php	/^        $a = $hsl1['a'] - $hsl2['a'];$/;"	v
+a	Environment.php	/^        $a = self::number($a);$/;"	v
+addFrame	Environment.php	/^    public function addFrame($frame)$/;"	f
+addFrames	Environment.php	/^    public function addFrames(array $frames)$/;"	f
+alpha	Environment.php	/^        $alpha = $color1->alpha * $p + $color2->alpha * (1 - $p);$/;"	v
+alpha	Environment.php	/^    public function alpha($color)$/;"	f
+argb	Environment.php	/^    public function argb($color)$/;"	f
+args	Environment.php	/^        $args = func_get_args();$/;"	v
+args	Parser.php	/^            $args = $this->match('parseEntitiesArguments');$/;"	v
+args	Parser.php	/^        $args = $this->match('parseEntitiesArguments');$/;"	v
+args	Parser.php	/^        $args = array();$/;"	v
+attr	Parser.php	/^                $attr = $key.$op.$val;$/;"	v
+attr	Parser.php	/^                $attr = $key;$/;"	v
+attr	Parser.php	/^        $attr = '';$/;"	v
+c	Environment.php	/^        $c = $color->toHSL();$/;"	v
+c	Parser.php	/^                $c = ord($this->input[$this->pos]);$/;"	v
+c	Parser.php	/^            $c = $this->match('>');$/;"	v
+c	Parser.php	/^        $c = $this->match('parseCombinator');$/;"	v
+c	Parser.php	/^        $c = isset($this->input[$this->pos]) ? $this->input[$this->pos] : '';$/;"	v
+c	Parser.php	/^        $c = null;$/;"	v
+c	Parser.php	/^        $c = ord($this->input[$this->pos]);$/;"	v
+clamp	Environment.php	/^    static public function clamp($val)$/;"	f
+clearCss	Parser.php	/^    public function clearCss()$/;"	f
+compress	Environment.php	/^        $this->compress = $compress;$/;"	v
+compress	Environment.php	/^        $this->compress = false;$/;"	v
+compress	Environment.php	/^    public $compress;$/;"	v
+css	Parser.php	/^        $this->css = '';$/;"	v
+css	Parser.php	/^    private $css;$/;"	v
+current	Parser.php	/^        $this->current = substr($this->input, $this->pos);$/;"	v
+current	Parser.php	/^    private $current;$/;"	v
+darken	Environment.php	/^    public function darken($color, $amount)$/;"	f
+debug	Environment.php	/^        $this->debug = $debug;$/;"	v
+debug	Environment.php	/^        $this->debug = false;$/;"	v
+debug	Environment.php	/^    public $debug;$/;"	v
+desaturate	Environment.php	/^    public function desaturate($color, $amount)$/;"	f
+e	Environment.php	/^    public function e ($str)$/;"	f
+e	Parser.php	/^            $e = true; \/\/ Escaped strings$/;"	v
+e	Parser.php	/^            $e = true;$/;"	v
+e	Parser.php	/^        $e = $this->match('\/^(?:[.#]?|:*)(?:[\\w-]|\\\\\\\\(?:[a-fA-F0-9]{1,6} ?|[^a-fA-F0-9]))+\/') ?:$/;"	v
+e	Parser.php	/^        $e = false;$/;"	v
+elements	Parser.php	/^        $elements = array();$/;"	v
+entities	Parser.php	/^        $entities = array();$/;"	v
+env	Parser.php	/^        $this->env = $env ?: new \\Less\\Environment();$/;"	v
+env	Parser.php	/^        $this->env = $env;$/;"	v
+env	Parser.php	/^    private $env;$/;"	v
+escape	Environment.php	/^    public function escape ($str)$/;"	f
+expression	Parser.php	/^        $expression = array();$/;"	v
+expressions	Parser.php	/^        $expressions = array();$/;"	v
+fade	Environment.php	/^    public function fade($color, $amount)$/;"	f
+fadein	Environment.php	/^    public function fadein($color, $amount)$/;"	f
+fadeout	Environment.php	/^    public function fadeout($color, $amount)$/;"	f
+filename	Parser.php	/^        $this->filename = $filename;$/;"	v
+filename	Parser.php	/^    private $filename;$/;"	v
+find	Environment.php	/^    static public function find ($obj, $fun)$/;"	f
+frames	Environment.php	/^        $this->frames = array();$/;"	v
+frames	Environment.php	/^        $this->frames = array_merge($this->frames, $frames);$/;"	v
+frames	Environment.php	/^    public $frames;$/;"	v
+getCompress	Environment.php	/^    public function getCompress()$/;"	f
+getCss	Parser.php	/^    public function getCss()$/;"	f
+getDebug	Environment.php	/^    public function getDebug()$/;"	f
+getEnvironment	Parser.php	/^    public function getEnvironment()$/;"	f
+greyscale	Environment.php	/^    public function greyscale($color)$/;"	f
+h	Environment.php	/^            $h = $h < 0 ? $h + 1 : ($h > 1 ? $h - 1 : $h);$/;"	v
+h	Environment.php	/^        $h = fmod(self::number($h), 360) \/ 360; \/\/ Classic % operator will change float to int$/;"	v
+hsl	Environment.php	/^        $hsl = $color->toHSL();$/;"	v
+hsl	Environment.php	/^    public function hsl($h, $s, $l)$/;"	f
+hsl1	Environment.php	/^        $hsl1 = $color1->toHSL();$/;"	v
+hsl2	Environment.php	/^        $hsl2 = $color2->toHSL();$/;"	v
+hsla	Environment.php	/^    public function hsla($h, $s, $l, $a)$/;"	f
+hue	Environment.php	/^        $hue = ($hsl['h'] + $amount->value) % 360;$/;"	v
+hue	Environment.php	/^        $hue = function ($h) use ($m1, $m2) {$/;"	v
+hue	Environment.php	/^    public function hue($color)$/;"	f
+important	Parser.php	/^            $important = $this->match('parseImportant');$/;"	v
+index	Parser.php	/^        $index = $this->pos;$/;"	v
+input	Parser.php	/^        $this->input = preg_replace('\/\\r\\n\/', "\\n", $str);$/;"	v
+input	Parser.php	/^    private $input;$/;"	v
+l	Environment.php	/^        $l = self::number($l);$/;"	v
+length	Parser.php	/^                $length = strlen($match[0]);$/;"	v
+length	Parser.php	/^            $length = 1;$/;"	v
+lighten	Environment.php	/^    public function lighten($color, $amount)$/;"	f
+lightness	Environment.php	/^    public function lightness($color)$/;"	f
+m1	Environment.php	/^        $m1 = $l * 2 - $m2;$/;"	v
+m2	Environment.php	/^        $m2 = $l <= 0.5 ? $l * ($s + 1) : $l + $s - $l * $s;$/;"	v
+match	Parser.php	/^                $match = '& ';$/;"	v
+match	Parser.php	/^            $match = '&';$/;"	v
+match	Parser.php	/^            $match = isset($this->input[$this->pos]) && $this->input[$this->pos] === $tok ? $tok : null;$/;"	v
+match	Parser.php	/^        $match = null;$/;"	v
+match	Parser.php	/^    public function match($tok)$/;"	f
+mix	Environment.php	/^    public function mix($color1, $color2, $weight = null)$/;"	f
+name	Parser.php	/^            $name = $match[1];$/;"	v
+name	Parser.php	/^        $name = strtolower($name[1]);$/;"	v
+negate	Parser.php	/^            $negate = $this->match('-');$/;"	v
+negate	Parser.php	/^        $negate = false;$/;"	v
+numargs	Environment.php	/^        $numargs = func_num_args();$/;"	v
+number	Environment.php	/^    static public function number($n)$/;"	f
+o	Parser.php	/^        $o = $this->match('parseSub') ?:$/;"	v
+obj	Parser.php	/^            $obj = new \\stdClass();$/;"	v
+operate	Environment.php	/^    static public function operate ($op, $a, $b)$/;"	f
+operation	Parser.php	/^                $operation = new \\Less\\Node\\Operation($op, array($operation ?: $m, $a));$/;"	v
+operation	Parser.php	/^        $operation = false;$/;"	v
+p	Environment.php	/^        $p = $weight->value \/ 100.0;$/;"	v
+p	Parser.php	/^        $p = isset($this->input[$this->pos + 1]) ? $this->input[$this->pos + 1] : '';$/;"	v
+params	Parser.php	/^        $params = array();$/;"	v
+parse	Parser.php	/^    public function parse($str, $returnRoot = false)$/;"	f
+parseAddition	Parser.php	/^    private function parseAddition ()$/;"	f
+parseAlpha	Parser.php	/^    private function parseAlpha()$/;"	f
+parseAttribute	Parser.php	/^    private function parseAttribute()$/;"	f
+parseBlock	Parser.php	/^    private function parseBlock()$/;"	f
+parseCombinator	Parser.php	/^    private function parseCombinator()$/;"	f
+parseComment	Parser.php	/^    private function parseComment()$/;"	f
+parseDirective	Parser.php	/^    private function parseDirective()$/;"	f
+parseElement	Parser.php	/^    private function parseElement()$/;"	f
+parseEnd	Parser.php	/^    private function parseEnd()$/;"	f
+parseEntitiesArguments	Parser.php	/^    private function parseEntitiesArguments()$/;"	f
+parseEntitiesCall	Parser.php	/^    private function parseEntitiesCall()$/;"	f
+parseEntitiesColor	Parser.php	/^    private function parseEntitiesColor()$/;"	f
+parseEntitiesDataURI	Parser.php	/^    private function parseEntitiesDataURI()$/;"	f
+parseEntitiesDimension	Parser.php	/^    private function parseEntitiesDimension()$/;"	f
+parseEntitiesJavascript	Parser.php	/^    private function parseEntitiesJavascript()$/;"	f
+parseEntitiesKeyword	Parser.php	/^    private function parseEntitiesKeyword()$/;"	f
+parseEntitiesLiteral	Parser.php	/^    private function parseEntitiesLiteral()$/;"	f
+parseEntitiesQuoted	Parser.php	/^    private function parseEntitiesQuoted()$/;"	f
+parseEntitiesUrl	Parser.php	/^    private function parseEntitiesUrl()$/;"	f
+parseEntitiesVariable	Parser.php	/^    private function parseEntitiesVariable()$/;"	f
+parseEntity	Parser.php	/^    private function parseEntity()$/;"	f
+parseExpression	Parser.php	/^    private function parseExpression ()$/;"	f
+parseFile	Parser.php	/^    public function parseFile($filename, $returnRoot = false)$/;"	f
+parseFont	Parser.php	/^    private function parseFont()$/;"	f
+parseImport	Parser.php	/^    private function parseImport()$/;"	f
+parseImportant	Parser.php	/^    private function parseImportant ()$/;"	f
+parseMixinCall	Parser.php	/^    private function parseMixinCall()$/;"	f
+parseMixinDefinition	Parser.php	/^    private function parseMixinDefinition()$/;"	f
+parseMultiplication	Parser.php	/^    private function parseMultiplication ()$/;"	f
+parseOperand	Parser.php	/^    private function parseOperand ()$/;"	f
+parsePrimary	Parser.php	/^    private function parsePrimary()$/;"	f
+parseProperty	Parser.php	/^    private function parseProperty ()$/;"	f
+parseRule	Parser.php	/^    private function parseRule()$/;"	f
+parseRuleset	Parser.php	/^    private function parseRuleset()$/;"	f
+parseSelector	Parser.php	/^    private function parseSelector()$/;"	f
+parseShorthand	Parser.php	/^    private function parseShorthand()$/;"	f
+parseSub	Parser.php	/^    private function parseSub ()$/;"	f
+parseTag	Parser.php	/^    private function parseTag()$/;"	f
+parseValue	Parser.php	/^    private function parseValue ()$/;"	f
+parseVariable	Parser.php	/^    private function parseVariable()$/;"	f
+path	Parser.php	/^        $this->path = pathinfo($filename, PATHINFO_DIRNAME);$/;"	v
+path	Parser.php	/^    private $path;$/;"	v
+peek	Parser.php	/^    public function peek($tok, $offset = 0)$/;"	f
+pos	Parser.php	/^                $this->pos = $start;$/;"	v
+pos	Parser.php	/^            $this->pos = $start;$/;"	v
+pos	Parser.php	/^        $this->pos = 0;$/;"	v
+pos	Parser.php	/^    private $pos;$/;"	v
+quoted	Environment.php	/^        $quoted = func_get_arg(0);$/;"	v
+rgb	Environment.php	/^        $rgb = array($color1->rgb[0] * $w1 + $color2->rgb[0] * $w2,$/;"	v
+rgb	Environment.php	/^        $rgb = array_map(function ($c) { return \\Less\\Environment::number($c); }, array($r, $g, $b));$/;"	v
+rgb	Environment.php	/^    public function rgb ($r, $g, $b)$/;"	f
+rgba	Environment.php	/^    public function rgba($r, $g, $b, $a)$/;"	f
+root	Parser.php	/^        $root = array();$/;"	v
+root	Parser.php	/^        $root = new \\Less\\Node\\Ruleset(false, $this->match('parsePrimary'));$/;"	v
+round	Environment.php	/^    public function round($n)$/;"	f
+ruleset	Parser.php	/^            $ruleset = $this->match('parseBlock');$/;"	v
+s	Environment.php	/^        $s = self::number($s);$/;"	v
+saturate	Environment.php	/^    public function saturate($color, $amount)$/;"	f
+saturation	Environment.php	/^    public function saturation($color)$/;"	f
+selectors	Parser.php	/^        $selectors = array();$/;"	v
+setCompress	Environment.php	/^    public function setCompress($compress)$/;"	f
+setDebug	Environment.php	/^    public function setDebug($debug)$/;"	f
+setEnvironment	Parser.php	/^    public function setEnvironment(\\Less\\Envronment $env)$/;"	f
+shiftFrame	Environment.php	/^    public function shiftFrame()$/;"	f
+spin	Environment.php	/^    public function spin($color, $amount)$/;"	f
+start	Parser.php	/^        $start = $this->pos;$/;"	v
+str	Environment.php	/^            $str = preg_replace_callback('\/%[sda]\/i', function($token) use ($arg) {$/;"	v
+str	Environment.php	/^        $str = $quoted->value;$/;"	v
+str	Environment.php	/^        $str = str_replace('%%', '%', $str);$/;"	v
+sync	Parser.php	/^    public function sync()$/;"	f
+token	Environment.php	/^                $token = $token[0];$/;"	v
+types	Parser.php	/^            $types = trim($this->match('\/^[^{]+\/'));$/;"	v
+unshiftFrame	Environment.php	/^    public function unshiftFrame($frame)$/;"	f
+val	Parser.php	/^                    $val = $val->toCss();$/;"	v
+value	Environment.php	/^                $value = stristr($token, 's') ? $arg->value : $arg->toCSS();$/;"	v
+value	Parser.php	/^                $value = $this->match('parseFont');$/;"	v
+value	Parser.php	/^                $value = $this->match('parseValue');$/;"	v
+value	Parser.php	/^                $value = new \\Less\\Node\\Anonymous($match[1]);$/;"	v
+value	Parser.php	/^            $value = $this->match('parseEntitiesVariable');$/;"	v
+value	Parser.php	/^        $value = $this->match('\/^[0-9]+\/');$/;"	v
+value	Parser.php	/^        $value = $this->match('parseEntitiesQuoted') ?:$/;"	v
+value	Parser.php	/^        $value = array();$/;"	v
+version	Parser.php	/^    static public $version = '0.9.0';$/;"	v
+w	Environment.php	/^        $w = $p * 2 - 1;$/;"	v
+w1	Environment.php	/^        $w1 = (((($w * $a) == -1) ? $w : ($w + $a) \/ (1 + $w * $a)) + 1) \/ 2;$/;"	v
+w2	Environment.php	/^        $w2 = 1 - $w1;$/;"	v
+weight	Environment.php	/^            $weight = new \\Less\\Node\\Dimension('50', '%');$/;"	v

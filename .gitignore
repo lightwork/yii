@@ -1,3 +1,6 @@
 yii
 yii-*
 logs
+.buildpath
+.project
+.settings/

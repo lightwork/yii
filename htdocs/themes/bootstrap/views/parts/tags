@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+bootAlert	_flashes.php	/^	$bootAlert = YiiBase::createComponent(array('class'=>'bootstrap.widgets.BootAlert'));$/;"	v
+class	_thumb.php	/^	$class = 'thumbnail';$/;"	v
+cs	_js.php	/^	$cs = Yii::app()->getClientScript();$/;"	v
+data_id	_thumbform.php	/^		$data_id = $data->id;$/;"	v
+data_id	_thumbform.php	/^	$data_id = '';$/;"	v
+data_placeholder	_thumbform.php	/^		$data_placeholder = 'true';$/;"	v
+data_placeholder	_thumbform.php	/^	$data_placeholder = '';$/;"	v
+id	_thumb.php	/^	$id = 'item_thumb_' . $index;$/;"	v
+id	_thumbform.php	/^	$id = 'item_thumb_' . $index;$/;"	v
+navitems	_navbar.php	/^	$navitems = array($/;"	v
+placeholder	_thumb.php	/^	$placeholder = (isset($data) && !empty($data)) ? '' : 'data-placeholder="true"';$/;"	v
+themeBase	_js.php	/^	$themeBase = Yii::app()->themeManager->baseUrl . '\/' . Yii::app()->theme->baseUrl;$/;"	v
+themeScripts	_js.php	/^	$themeScripts = array($/;"	v
+url	_thumb.php	/^	$url = (isset($data) && !empty($data)) ? $data : 'http:\/\/placehold.it\/280x180';$/;"	v
+url	_thumbform.php	/^	$url = 'http:\/\/placehold.it\/280x180';$/;"	v

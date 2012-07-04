@@ -1,0 +1,1 @@
+if (window.hasOwnProperty('jQuery')) { jQuery.noConflict(); }

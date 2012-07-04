@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+HighchartsWidget	HighchartsWidget.php	/^class HighchartsWidget extends CWidget {$/;"	c
+basePath	HighchartsWidget.php	/^		$basePath = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR;$/;"	v
+baseUrl	HighchartsWidget.php	/^		$baseUrl = Yii::app()->getAssetManager()->publish($basePath, false, 1, YII_DEBUG);$/;"	v
+cs	HighchartsWidget.php	/^		$cs = Yii::app()->clientScript;$/;"	v
+defaultOptions	HighchartsWidget.php	/^		$defaultOptions = array('chart' => array('renderTo' => $id), 'exporting' => array('enabled' => true));$/;"	v
+htmlOptions	HighchartsWidget.php	/^	public $htmlOptions = array();$/;"	v
+id	HighchartsWidget.php	/^		$id = $this->getId();$/;"	v
+jsOptions	HighchartsWidget.php	/^		$jsOptions = CJavaScript::encode($this->options);$/;"	v
+options	HighchartsWidget.php	/^		$this->options = CMap::mergeArray($defaultOptions, $this->options);$/;"	v
+options	HighchartsWidget.php	/^	public $options = array();$/;"	v
+position	HighchartsWidget.php	/^		$this->position = Yii::app()->getClientScript()->coreScriptPosition;$/;"	v
+position	HighchartsWidget.php	/^	public $position = CClientScript::POS_END; \/\/ script position$/;"	v
+registerScripts	HighchartsWidget.php	/^	protected function registerScripts($id, $embeddedScript) {$/;"	f
+run	HighchartsWidget.php	/^	public function run() {$/;"	f
+scriptFile	HighchartsWidget.php	/^			$scriptFile = $this->options['theme'] . ".js";$/;"	v
+scriptFile	HighchartsWidget.php	/^			$scriptFile = YII_DEBUG ? 'exporting.src.js' : 'exporting.js';$/;"	v
+scriptFile	HighchartsWidget.php	/^		$scriptFile = YII_DEBUG ? '\/highcharts.src.js' : '\/highcharts.js';$/;"	v

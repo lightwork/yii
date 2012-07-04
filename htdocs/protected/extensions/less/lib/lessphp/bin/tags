@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+cachePath	less.php	/^$cachePath = __DIR__.'\/cache\/';$/;"	v
+env	less.php	/^$env = new \\Less\\Environment;$/;"	v
+fileName	less.php	/^    $fileName = $lessLibraryPath.str_replace('\\\\', DIRECTORY_SEPARATOR, $className) . '.php';$/;"	v
+files	less.php	/^$files = explode(',', isset($_SERVER['QUERY_STRING']) ? $_SERVER['QUERY_STRING'] : '');$/;"	v
+hash	less.php	/^    $hash = md5(array_reduce($files, function($a, $b) {$/;"	v
+lessLibraryPath	less.php	/^$lessLibraryPath = __DIR__.'\/..\/lib\/';$/;"	v
+modTime	less.php	/^    $modTime = filemtime($cachePath.$hash);$/;"	v
+parser	less.php	/^        $parser = new \\Less\\Parser($env);$/;"	v

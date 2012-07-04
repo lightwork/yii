@@ -1,0 +1,114 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AuctionItemCollection	AuctionItemCollection.php	/^class AuctionItemCollection extends ModelCollection$/;"	c
+BaseCollection	BaseCollection.php	/^class BaseCollection extends CList {$/;"	c
+BaseCollectionMap	BaseCollectionMap.php	/^class BaseCollectionMap extends CMap {$/;"	c
+BaseTypedCollection	BaseTypedCollection.php	/^class BaseTypedCollection extends BaseCollection {$/;"	c
+CollectionFilter	ModelCollection.php	/^class CollectionFilter extends FilterIterator$/;"	c
+ItemColorRelCollection	ItemColorRelCollection.php	/^class ItemColorRelCollection extends ModelCollection$/;"	c
+LWTypedMap	LWTypedMap.php	/^class LWTypedMap extends CTypedMap$/;"	c
+ModelCollection	ModelCollection.php	/^class ModelCollection extends LWTypedMap {$/;"	c
+ReportCollection	ReportCollection.php	/^class ReportCollection extends BaseCollectionMap$/;"	c
+__construct	BaseTypedCollection.php	/^	public function __construct($type, $data = array())$/;"	f
+__construct	LWTypedMap.php	/^	public function __construct($type)$/;"	f
+__construct	ModelCollection.php	/^	public function __construct(Iterator $iterator, $filter )$/;"	f
+_type	BaseTypedCollection.php	/^		$this->_type=$type;$/;"	v
+_type	BaseTypedCollection.php	/^	protected $_type;$/;"	v
+_type	LWTypedMap.php	/^		$this->_type = $type;$/;"	v
+_type	LWTypedMap.php	/^	protected $_type;$/;"	v
+a	BaseCollection.php	/^		$a = array();$/;"	v
+a	BaseCollectionMap.php	/^		$a = array();$/;"	v
+aValue	GroupedCollections.php	/^		$aValue = @$a->$property;$/;"	v
+accept	ModelCollection.php	/^	public function accept()$/;"	f
+add	ModelCollection.php	/^	public function add($index, $item) {$/;"	f
+array	ReportCollection.php	/^		$array = array_map(function($data) use($attr) {$/;"	v
+bValue	GroupedCollections.php	/^		$bValue = @$b->$property;$/;"	v
+col	GroupedCollections.php	/^		$col = new $class;$/;"	v
+collectAttributes	ModelCollection.php	/^	public function collectAttributes($attribute, $index = null)$/;"	f
+collection	BaseCollectionMap.php	/^		$collection = new self;$/;"	v
+collection	ModelCollection.php	/^		$collection = new static($this->_type);$/;"	v
+createFormFilter	ModelCollection.php	/^	protected function createFormFilter(CollectionFilter $filter, $indexAttribute = null)$/;"	f
+date	ModelCollection.php	/^		$date = new DateTime($value);$/;"	v
+filter	ModelCollection.php	/^		$filter = new CollectionFilter($this->getIterator(), $callback);$/;"	v
+filter	ModelCollection.php	/^		$this->filter = $filter;$/;"	v
+filter	ModelCollection.php	/^	private $filter;$/;"	v
+filterByAttribute	ModelCollection.php	/^	public function filterByAttribute($attribute, $value, $indexAttribute = null)$/;"	f
+filterCollection	ModelCollection.php	/^	protected function filterCollection($callback, $indexAttribute = null)$/;"	f
+flatList	GroupedCollections.php	/^		$flatList = new $class;$/;"	v
+flatten	GroupedCollections.php	/^	public function flatten($class = 'BaseCollection') {$/;"	f
+forHighcharts	ReportCollection.php	/^	public function forHighcharts($attr = null)$/;"	f
+getFirstElement	ModelCollection.php	/^	protected function getFirstElement()$/;"	f
+getGreater	GroupedCollections.php	/^	private function getGreater($a, $b, $property) {$/;"	f
+getLastElement	ModelCollection.php	/^	protected function getLastElement() {$/;"	f
+getOldest	AuctionItemCollection.php	/^	public function getOldest()$/;"	f
+getParent	ModelCollection.php	/^	public function getParent() {$/;"	f
+getProperty	BaseCollection.php	/^	public function getProperty($attribute) {$/;"	f
+getProperty	BaseCollectionMap.php	/^	public function getProperty($attribute) {$/;"	f
+getType	BaseTypedCollection.php	/^	public function getType() {$/;"	f
+greatestItem	GroupedCollections.php	/^				$greatestItem = $this->getGreater($greatestItem, $item, $property);$/;"	v
+greatestItem	GroupedCollections.php	/^			$greatestItem = null;$/;"	v
+index	BaseCollection.php	/^	public function index($key)$/;"	f
+index	BaseCollectionMap.php	/^	public function index($key)$/;"	f
+index	ModelCollection.php	/^			$index = isset($indexAttribute) ? $item->$indexAttribute : $i;$/;"	v
+insertAt	BaseTypedCollection.php	/^	public function insertAt($index,$item)$/;"	f
+int	GroupedCollections.php	/^		$int = strtotime($value);$/;"	v
+isTime	GroupedCollections.php	/^	private function isTime($value) {$/;"	f
+item	ModelCollection.php	/^		$item = $this->getInnerIterator()->current();$/;"	v
+keys	BaseCollectionMap.php	/^		$keys = array_merge(array_keys($thisData), array_keys($thatData));	$/;"	v
+keys	ModelCollection.php	/^		$keys = $this->getKeys();$/;"	v
+memoKey	ModelCollection.php	/^		$memoKey = '--total'.$property;$/;"	v
+memoKey	ModelCollection.php	/^		$memoKey = 'collected-' . $attribute . $index;$/;"	v
+memoKey	ModelCollection.php	/^		$memoKey = 'keyValue';$/;"	v
+memoize	ModelCollection.php	/^		$this->memoize = array();$/;"	v
+memoize	ModelCollection.php	/^	protected $memoize = array();$/;"	v
+mergeBoth	BaseCollectionMap.php	/^	public function mergeBoth($thatData, $order = 'desc')$/;"	f
+oldest	AuctionItemCollection.php	/^				$oldest = $item;$/;"	v
+oldest	AuctionItemCollection.php	/^		$oldest = null;$/;"	v
+oldestdate	AuctionItemCollection.php	/^				$oldestdate = strtotime($item->entrydate);$/;"	v
+oldestdate	AuctionItemCollection.php	/^		$oldestdate = null;$/;"	v
+out	ModelCollection.php	/^		$out = array();$/;"	v
+parent	ModelCollection.php	/^		$this->parent = $parent;$/;"	v
+parent	ModelCollection.php	/^	protected $parent = null;$/;"	v
+pluck	BaseCollection.php	/^	public function pluck($property, $default = null) {$/;"	f
+pluck	BaseCollectionMap.php	/^	public function pluck($property, $default = null) {$/;"	f
+pluckGreatestBy	GroupedCollections.php	/^	public function pluckGreatestBy($property, $class = 'BaseCollection') {$/;"	f
+relationship	ModelCollection.php	/^		$this->relationship = $parent->getActiveRelation($relationship);$/;"	v
+relationship	ModelCollection.php	/^	protected $relationship;$/;"	v
+reverse	BaseCollection.php	/^	public function reverse() {$/;"	f
+reverse	BaseCollectionMap.php	/^	public function reverse() {$/;"	f
+row	BaseCollectionMap.php	/^				$row = $this->mergeArray($row, $thatData[$key]);$/;"	v
+row	BaseCollectionMap.php	/^				$row = $this->mergeArray($row, $thisData[$key]);$/;"	v
+row	BaseCollectionMap.php	/^			$row = array();$/;"	v
+row	ReportCollection.php	/^			$row = array();$/;"	v
+rowKey	BaseCollection.php	/^			$rowKey = $row[$key];$/;"	v
+rowKey	BaseCollectionMap.php	/^			$rowKey = $row[$key];$/;"	v
+setParent	ModelCollection.php	/^	public function setParent(LWActiveRecord $parent, $relationship) {$/;"	f
+sort	BaseCollectionMap.php	/^			$sort = 'arsort';$/;"	v
+sort	BaseCollectionMap.php	/^		$sort = 'asort';$/;"	v
+thatData	BaseCollectionMap.php	/^				$thatData = $thatData->toArray();$/;"	v
+thisData	BaseCollectionMap.php	/^		$thisData = $this->toArray();$/;"	v
+toAPIArray	ModelCollection.php	/^	public function toAPIArray()$/;"	f
+toJsonList	ModelCollection.php	/^	public function toJsonList($attributes = array())$/;"	f
+toKeyValueArray	ModelCollection.php	/^	public function toKeyValueArray($keyAttribute = 'Id', $valueAttribute = 'Name')$/;"	f
+toSimpleArray	BaseCollectionMap.php	/^	public function toSimpleArray()$/;"	f
+toUTCTimeStamp	ModelCollection.php	/^	protected function toUTCTimeStamp($value)$/;"	f
+total	BaseCollection.php	/^		$total = 0;$/;"	v
+total	BaseCollection.php	/^	public function total($property) {$/;"	f
+total	BaseCollectionMap.php	/^		$total = 0;$/;"	v
+total	BaseCollectionMap.php	/^	public function total($property) {$/;"	f
+total	LWTypedMap.php	/^		$total = 0;$/;"	v
+total	LWTypedMap.php	/^	public function total($property) {$/;"	f
+totalAndMemoize	ModelCollection.php	/^	protected function totalAndMemoize($property)$/;"	f
+value	BaseCollection.php	/^			$value = $item->$attribute;$/;"	v
+value	BaseCollection.php	/^			$value = $item->$property;$/;"	v
+value	BaseCollectionMap.php	/^			$value = $item->$attribute;$/;"	v
+value	BaseCollectionMap.php	/^			$value = $item->$property;$/;"	v
+value	GroupedCollections.php	/^			$value = @$greatestItem->$property;$/;"	v
+value	ModelCollection.php	/^						$value = $v->$k;$/;"	v
+value	ModelCollection.php	/^						$value = $v->getRelated($j, false, array(), 'ModelCollection')->toJsonList($k);$/;"	v
+values	BaseCollection.php	/^		$values = array();$/;"	v
+values	BaseCollectionMap.php	/^		$values = array();$/;"	v

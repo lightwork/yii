@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Bootstrap	Bootstrap.php	/^class Bootstrap extends CApplicationComponent$/;"	c
+_assetsUrl	Bootstrap.php	/^	protected $_assetsUrl;$/;"	v
+_rp	Bootstrap.php	/^	protected $_rp = array();$/;"	v
+assetsPath	Bootstrap.php	/^			$assetsPath = Yii::getPathOfAlias('bootstrap.assets');$/;"	v
+assetsUrl	Bootstrap.php	/^				$assetsUrl = Yii::app()->assetManager->publish($assetsPath);$/;"	v
+assetsUrl	Bootstrap.php	/^				$assetsUrl = Yii::app()->assetManager->publish($assetsPath, false, -1, true);$/;"	v
+config	Bootstrap.php	/^			$config = isset($this->plugins[$name]) ? $this->plugins[$name] : array();$/;"	v
+coreCss	Bootstrap.php	/^	public $coreCss = true;$/;"	v
+cs	Bootstrap.php	/^		$cs = Yii::app()->getClientScript();$/;"	v
+enableJS	Bootstrap.php	/^	public $enableJS = true;$/;"	v
+enableTransitions	Bootstrap.php	/^	public function enableTransitions()$/;"	f
+getAssetsUrl	Bootstrap.php	/^	protected function getAssetsUrl()$/;"	f
+init	Bootstrap.php	/^	public function init()$/;"	f
+isPluginDisabled	Bootstrap.php	/^	protected function isPluginDisabled($name)$/;"	f
+isPluginRegistered	Bootstrap.php	/^	public function isPluginRegistered($name)$/;"	f
+key	Bootstrap.php	/^			$key = __CLASS__.'.'.md5($name.$selector.serialize($options).$defaultSelector);$/;"	v
+options	Bootstrap.php	/^				$options = $config['options'];$/;"	v
+options	Bootstrap.php	/^			$options = !empty($options) ? CJavaScript::encode($options) : '';$/;"	v
+plugins	Bootstrap.php	/^	public $plugins = array();$/;"	v
+registerAlert	Bootstrap.php	/^	public function registerAlert($selector = null, $options = array())$/;"	f
+registerButton	Bootstrap.php	/^	public function registerButton($selector = null, $options = array())$/;"	f
+registerCarousel	Bootstrap.php	/^	public function registerCarousel($selector = null, $options = array())$/;"	f
+registerCollapse	Bootstrap.php	/^	public function registerCollapse($selector = null, $options = array())$/;"	f
+registerCorePlugins	Bootstrap.php	/^	public function registerCorePlugins()$/;"	f
+registerCss	Bootstrap.php	/^	public function registerCss()$/;"	f
+registerDropdown	Bootstrap.php	/^	public function registerDropdown($selector = null, $options = array())$/;"	f
+registerModal	Bootstrap.php	/^	public function registerModal($selector = null, $options = array())$/;"	f
+registerPlugin	Bootstrap.php	/^	protected function registerPlugin($name, $selector = null, $options = array(), $defaultSelector = null)$/;"	f
+registerPopover	Bootstrap.php	/^	public function registerPopover($selector = null, $options = array())$/;"	f
+registerResponsiveCss	Bootstrap.php	/^	public function registerResponsiveCss()$/;"	f
+registerScriptFile	Bootstrap.php	/^	protected function registerScriptFile($fileName, $position=CClientScript::POS_END)$/;"	f
+registerScrollSpy	Bootstrap.php	/^	public function registerScrollSpy($selector = null, $options = array())$/;"	f
+registerTabs	Bootstrap.php	/^	public function registerTabs($selector = null, $options = array())$/;"	f
+registerTooltip	Bootstrap.php	/^	public function registerTooltip($selector = null, $options = array())$/;"	f
+registerTypeahead	Bootstrap.php	/^	public function registerTypeahead($selector = null, $options = array())$/;"	f
+registerYiiCss	Bootstrap.php	/^	public function registerYiiCss()$/;"	f
+responsiveCss	Bootstrap.php	/^	public $responsiveCss = false;$/;"	v
+script	Bootstrap.php	/^		$script = "jQuery('{$selector}').attr('data-spy', 'scroll');";$/;"	v
+selector	Bootstrap.php	/^				$selector = $config['selector'];$/;"	v
+selector	Bootstrap.php	/^				$selector = $defaultSelector;$/;"	v
+spyOn	Bootstrap.php	/^	public function spyOn($selector, $target = null, $offset = null)$/;"	f

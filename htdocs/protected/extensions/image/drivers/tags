@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Image_GD_Driver	Image_GD_Driver.php	/^class Image_GD_Driver extends Image_Driver {$/;"	c
+Image_ImageMagick_Driver	Image_ImageMagick_Driver.php	/^class Image_ImageMagick_Driver extends Image_Driver {$/;"	c
+__construct	Image_GD_Driver.php	/^	public function __construct()$/;"	f
+__construct	Image_ImageMagick_Driver.php	/^	public function __construct($config)$/;"	f
+amount	Image_GD_Driver.php	/^		$amount = round(abs(-18 + ($amount * 0.08)), 2);$/;"	v
+amount	Image_ImageMagick_Driver.php	/^		$amount = round(($amount \/ 80) * 3.14, 2);$/;"	v
+blank_png	Image_GD_Driver.php	/^	protected static $blank_png;$/;"	v
+blank_png_height	Image_GD_Driver.php	/^	protected static $blank_png_height;$/;"	v
+blank_png_width	Image_GD_Driver.php	/^	protected static $blank_png_width;$/;"	v
+cmd_image	Image_ImageMagick_Driver.php	/^		$this->cmd_image = escapeshellarg($this->tmp_image);$/;"	v
+contents	Image_ImageMagick_Driver.php	/^					$contents = file_get_contents($this->tmp_image);$/;"	v
+create	Image_GD_Driver.php	/^				$create = 'imagecreatefromgif';$/;"	v
+create	Image_GD_Driver.php	/^				$create = 'imagecreatefromjpeg';$/;"	v
+create	Image_GD_Driver.php	/^				$create = 'imagecreatefrompng';$/;"	v
+crop	Image_GD_Driver.php	/^	public function crop($properties)$/;"	f
+crop	Image_ImageMagick_Driver.php	/^	public function crop($prop)$/;"	f
+dim	Image_ImageMagick_Driver.php	/^				$dim = escapeshellarg($prop['width'].'x');$/;"	v
+dim	Image_ImageMagick_Driver.php	/^				$dim = escapeshellarg($prop['width'].'x'.$prop['height']);$/;"	v
+dim	Image_ImageMagick_Driver.php	/^				$dim = escapeshellarg($prop['width'].'x'.$prop['height'].'!');$/;"	v
+dim	Image_ImageMagick_Driver.php	/^				$dim = escapeshellarg('x'.$prop['height']);$/;"	v
+dir	Image_ImageMagick_Driver.php	/^		$dir = ($dir === Image::HORIZONTAL) ? '-flop' : '-flip';$/;"	v
+dir	Image_ImageMagick_Driver.php	/^		$this->dir = str_replace('\\\\', '\/', realpath($config['directory'])).'\/';$/;"	v
+dir	Image_ImageMagick_Driver.php	/^	protected $dir = '';$/;"	v
+ext	Image_ImageMagick_Driver.php	/^		$this->ext = (PHP_SHLIB_SUFFIX === 'dll') ? '.exe' : '';$/;"	v
+ext	Image_ImageMagick_Driver.php	/^	protected $ext = '';$/;"	v
+flip	Image_GD_Driver.php	/^    public function flip($direction)$/;"	f
+flip	Image_ImageMagick_Driver.php	/^	public function flip($dir)$/;"	f
+flipped	Image_GD_Driver.php	/^		$flipped = $this->imagecreatetransparent($width, $height);$/;"	v
+geometry	Image_ImageMagick_Driver.php	/^		$geometry = escapeshellarg($prop['width'].'x'.$prop['height'].'+'.$prop['left'].'+'.$prop['top']);$/;"	v
+height	Image_GD_Driver.php	/^			$height = $pre_height;$/;"	v
+height	Image_GD_Driver.php	/^		$height = imagesy($this->tmp_image);$/;"	v
+image	Image_GD_Driver.php	/^		$this->image = $image;$/;"	v
+image	Image_ImageMagick_Driver.php	/^		$image = $image['file'];$/;"	v
+imagecreatetransparent	Image_GD_Driver.php	/^	protected function imagecreatetransparent($width, $height)$/;"	f
+img	Image_GD_Driver.php	/^			$img = $this->imagecreatetransparent($pre_width, $pre_height);$/;"	v
+img	Image_GD_Driver.php	/^		$img = $this->imagecreatetransparent($properties['width'], $properties['height']);$/;"	v
+img	Image_GD_Driver.php	/^		$img = $this->tmp_image;$/;"	v
+img	Image_GD_Driver.php	/^		$img = imagecreatetruecolor($width, $height);$/;"	v
+img	Image_GD_Driver.php	/^		$img = imagerotate($img, 360 - $amount, $transparent, -1);$/;"	v
+info	Image_GD_Driver.php	/^		$info = gd_info();$/;"	v
+matrix	Image_GD_Driver.php	/^		$matrix = array$/;"	v
+max_reduction_height	Image_GD_Driver.php	/^			$max_reduction_height = round($properties['height'] * 1.1);$/;"	v
+max_reduction_width	Image_GD_Driver.php	/^			$max_reduction_width  = round($properties['width']  * 1.1);$/;"	v
+new_image	Image_ImageMagick_Driver.php	/^		$this->new_image = ($render)? $this->cmd_image : escapeshellarg($dir.$file);$/;"	v
+pre_height	Image_GD_Driver.php	/^			$pre_height = $height;$/;"	v
+pre_width	Image_GD_Driver.php	/^			$pre_width = $width;$/;"	v
+process	Image_GD_Driver.php	/^	public function process($image, $actions, $dir, $file, $render = FALSE)$/;"	f
+process	Image_ImageMagick_Driver.php	/^	public function process($image, $actions, $dir, $file, $render = FALSE)$/;"	f
+properties	Image_GD_Driver.php	/^	protected function properties()$/;"	f
+properties	Image_ImageMagick_Driver.php	/^	protected function properties()$/;"	f
+quality	Image_GD_Driver.php	/^					$quality = 9;$/;"	v
+quality	Image_GD_Driver.php	/^		$quality = CArray::remove('quality', $actions);$/;"	v
+quality	Image_ImageMagick_Driver.php	/^		$quality = (int) CArray::remove('quality', $actions);$/;"	v
+radius	Image_ImageMagick_Driver.php	/^		$radius = $sigma * 2;$/;"	v
+resize	Image_GD_Driver.php	/^	public function resize($properties)$/;"	f
+resize	Image_ImageMagick_Driver.php	/^	public function resize($prop)$/;"	f
+rotate	Image_GD_Driver.php	/^    public function rotate($amount)$/;"	f
+rotate	Image_ImageMagick_Driver.php	/^	public function rotate($amt)$/;"	f
+save	Image_GD_Driver.php	/^				$save = 'imagegif';$/;"	v
+save	Image_GD_Driver.php	/^				$save = 'imagejpeg';$/;"	v
+save	Image_GD_Driver.php	/^				$save = 'imagepng';$/;"	v
+sharpen	Image_GD_Driver.php	/^	public function sharpen($amount)$/;"	f
+sharpen	Image_ImageMagick_Driver.php	/^		$sharpen = escapeshellarg($radius.'x'.$sigma.'+'.$amount.'+0');$/;"	v
+sharpen	Image_ImageMagick_Driver.php	/^	public function sharpen($amount)$/;"	f
+sigma	Image_ImageMagick_Driver.php	/^		$sigma  = 0.5;$/;"	v
+status	Image_GD_Driver.php	/^				$status = imagecopy($flipped, $this->tmp_image, $x, 0, $width - $x - 1, 0, 1, $height);$/;"	v
+status	Image_GD_Driver.php	/^				$status = imagecopy($flipped, $this->tmp_image, 0, $y, 0, $height - $y - 1, $width, 1);$/;"	v
+status	Image_GD_Driver.php	/^				$status = isset($quality) ? $save($this->tmp_image, $dir.$file, $quality) : $save($this->tmp_image, $dir.$file);$/;"	v
+status	Image_GD_Driver.php	/^				$status = isset($quality) ? $save($this->tmp_image, NULL, $quality) : $save($this->tmp_image);$/;"	v
+tmp_image	Image_GD_Driver.php	/^				$this->tmp_image = $img;$/;"	v
+tmp_image	Image_GD_Driver.php	/^			$this->tmp_image = $flipped;$/;"	v
+tmp_image	Image_GD_Driver.php	/^			$this->tmp_image = $img;$/;"	v
+tmp_image	Image_GD_Driver.php	/^		$this->tmp_image = $create($image['file']);$/;"	v
+tmp_image	Image_GD_Driver.php	/^		$this->tmp_image = $img;$/;"	v
+tmp_image	Image_ImageMagick_Driver.php	/^		$this->tmp_image = $dir.'k2img--'.sha1(time().$dir.$file).substr($file, strrpos($file, '.'));$/;"	v
+tmp_image	Image_ImageMagick_Driver.php	/^		$this->tmp_image = '';$/;"	v
+tmp_image	Image_ImageMagick_Driver.php	/^	protected $tmp_image;$/;"	v
+transparent	Image_GD_Driver.php	/^		$transparent = imagecolorallocatealpha($img, 255, 255, 255, 127);$/;"	v
+watermark	Image_GD_Driver.php	/^		$watermark = $create($properties['image']->file);$/;"	v
+watermark	Image_GD_Driver.php	/^	public function watermark($properties)$/;"	f
+watermark	Image_ImageMagick_Driver.php	/^	protected function watermark($properties)$/;"	f
+width	Image_GD_Driver.php	/^			$width  = $pre_width;$/;"	v
+width	Image_GD_Driver.php	/^		$width = imagesx($this->tmp_image);$/;"	v

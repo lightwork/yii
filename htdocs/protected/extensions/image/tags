@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CImageComponent	CImageComponent.php	/^class CImageComponent extends CApplicationComponent$/;"	c
+ER	Image.php	/^		$ER = error_reporting(0);$/;"	v
+Image	Image.php	/^class Image {$/;"	c
+Image_Driver	Image_Driver.php	/^abstract class Image_Driver {$/;"	c
+__construct	Image.php	/^	public function __construct($image, $config = NULL)$/;"	f
+__get	Image.php	/^	public function __get($property)$/;"	f
+actions	Image.php	/^			$this->actions = array();$/;"	v
+actions	Image.php	/^	protected $actions = array();$/;"	v
+allowed_types	Image.php	/^	public static $allowed_types = array$/;"	v
+check	Image.php	/^		static $check;$/;"	v
+config	CImageComponent.php	/^        $config = array($/;"	v
+config	Image.php	/^            $this->config = $config;$/;"	v
+config	Image.php	/^            $this->config = array($/;"	v
+crop	Image.php	/^	public function crop($width, $height, $top = 'center', $left = 'center')$/;"	f
+degrees	Image.php	/^		$degrees = (int) $degrees;$/;"	v
+dir	Image.php	/^		$dir  = pathinfo($new_image, PATHINFO_DIRNAME); $/;"	v
+dir	Image.php	/^		$dir  = pathinfo($new_image, PATHINFO_DIRNAME);$/;"	v
+dir	Image.php	/^		$dir = str_replace('\\\\', '\/', realpath($dir)).'\/'; $/;"	v
+dir	Image.php	/^		$dir = str_replace('\\\\', '\/', realpath($dir)).'\/';$/;"	v
+driver	CImageComponent.php	/^    public $driver = 'GD';$/;"	v
+driver	Image.php	/^		$driver = 'Image_'.ucfirst($this->config['driver']).'_Driver';$/;"	v
+driver	Image.php	/^		$this->driver = new $driver($this->config['params']);$/;"	v
+driver	Image.php	/^	protected $driver;$/;"	v
+errors	Image_Driver.php	/^	protected $errors = array();$/;"	v
+execute	Image_Driver.php	/^	public function execute($actions)$/;"	f
+factory	Image.php	/^	public static function factory($image, $config = NULL)$/;"	f
+file	Image.php	/^		$file = pathinfo($new_image, PATHINFO_BASENAME); $/;"	v
+file	Image.php	/^		$file = pathinfo($new_image, PATHINFO_BASENAME);$/;"	v
+flip	Image.php	/^	public function flip($direction)$/;"	f
+image	Image.php	/^		$this->image = array$/;"	v
+image	Image.php	/^	protected $image = '';$/;"	v
+image	Image_Driver.php	/^	protected $image;$/;"	v
+image_info	Image.php	/^		$image_info = getimagesize($image);$/;"	v
+init	CImageComponent.php	/^    public function init()$/;"	f
+load	CImageComponent.php	/^    public function load($image)$/;"	f
+master	Image.php	/^			$master = Image::AUTO;$/;"	v
+new_image	Image.php	/^		$new_image = $this->image['file']; $/;"	v
+offset_x	Image.php	/^	        $offset_x = $this->width - $watermark->width + $offset_x;$/;"	v
+offset_x	Image.php	/^	        $offset_x = $this->width - $watermark->width;$/;"	v
+offset_x	Image.php	/^	        $offset_x = 0;$/;"	v
+offset_x	Image.php	/^	        $offset_x = round(($this->width - $watermark->width) \/ 2);$/;"	v
+offset_y	Image.php	/^	        $offset_y = $this->height - $watermark->height + $offset_y;$/;"	v
+offset_y	Image.php	/^	        $offset_y = $this->height - $watermark->height;$/;"	v
+offset_y	Image.php	/^	        $offset_y = 0;$/;"	v
+offset_y	Image.php	/^	        $offset_y = round(($this->height - $watermark->height) \/ 2);$/;"	v
+params	CImageComponent.php	/^    public $params = array();$/;"	v
+quality	Image.php	/^	public function quality($amount)$/;"	f
+render	Image.php	/^	public function render($keep_actions = FALSE) $/;"	f
+reporting	Image_Driver.php	/^		$reporting = error_reporting(0);$/;"	v
+resize	Image.php	/^	public function resize($width, $height, $master = NULL)$/;"	f
+rotate	Image.php	/^	public function rotate($degrees)$/;"	f
+sanitize_geometry	Image_Driver.php	/^	protected function sanitize_geometry( & $geometry)$/;"	f
+save	Image.php	/^	public function save($new_image = FALSE, $chmod = 0644, $keep_actions = FALSE)$/;"	f
+sharpen	Image.php	/^	public function sharpen($amount)$/;"	f
+status	Image.php	/^		$status = $this->driver->process($this->image, $this->actions, $dir, $file, $render = TRUE); $/;"	v
+tmp_image	Image_Driver.php	/^	protected $tmp_image;$/;"	v
+transparency	Image.php	/^	    $transparency = min(max($transparency, 1), 100);$/;"	v
+valid_size	Image.php	/^	protected function valid_size($type, & $value)$/;"	f
+value	Image.php	/^					$value = (int) $value;$/;"	v
+watermark	Image.php	/^	public function watermark(Image $watermark, $offset_x = NULL, $offset_y = NULL, $transparency = 100) $/;"	f

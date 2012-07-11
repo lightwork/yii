@@ -46,6 +46,9 @@ $config = array(
 
 	// application components
 	'components'=>array(
+
+		'cache' => array('class' => 'system.caching.CFileCache'),
+
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,

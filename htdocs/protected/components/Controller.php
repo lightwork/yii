@@ -70,8 +70,22 @@ class Controller extends CController
 
 	public function init() {
 
+		$this->initThemeLessFiles();
 		Yii::app()->getClientScript()->coreScriptPosition = CClientScript::POS_END;
 
+	}
+
+	protected function initThemeLessFiles()
+	{
+		$base = Yii::app()->theme->baseUrl;
+		$base = substr($base, 1);
+
+		$less = YiiBase::createComponent('ext.less.components.LessCompiler');
+		$less->paths = array(
+			$base . '/css/bootstrap_test.less'=>$base . '/css/bootstrap_test.css',
+		);
+
+		$less->init();
 	}
 
 

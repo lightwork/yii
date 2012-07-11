@@ -76,6 +76,15 @@ $config = array(
 			'responsiveCss'=>false,
 		),
 
+	    'less'=>array(
+	        'class'=>'ext.less.components.LessCompiler',
+	        'forceCompile'=>false, // indicates whether to force compiling
+	        'paths'=>array(
+	        	// These files are located relative to the webroot
+	            'less/test.less'=>'css/test.css',
+	        ),
+	    ),
+
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
 			'urlFormat'=>'path',

@@ -22,9 +22,11 @@ if(isset($this->targetElementSelector)) {
 <body>
 <?php $this->renderPartial('//parts/_navbar'); ?>
 <div class="container"><div id="flashes">
-<?php $this->renderPartial('//parts/_flashes'); ?>
+	<?php $this->renderPartial('//parts/_flashes'); ?>
 </div></div>
+<div id="main">
 <?php echo $content; ?>
+</div>
 </body>
 <?php Yii::app()->getClientScript()->registerCssFile(Yii::app()->theme->baseUrl . '/css/bootstrap.css'); ?>
 <?php Yii::app()->getClientScript()->registerCssFile(Yii::app()->theme->baseUrl . '/css/bootstrap_test.css'); ?>

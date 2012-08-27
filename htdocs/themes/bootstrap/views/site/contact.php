@@ -20,24 +20,24 @@ If you have business inquiries or other questions, please fill out the following
 </p>
 
 <div class="span6">
-<?php /** @var BootActiveForm $form */
-$form = $this->beginWidget('bootstrap.widgets.BootActiveForm', array(
+<?php /** @var TbActiveForm $form */
+$form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
     'id'=>'contact-form',
     'type'=>'horizontal',
 )); ?>
 
- 
+
 <fieldset>
- 
+
 	 <p class="note">Fields with <span class="required">*</span> are required.</p>
 
 	 <?php echo $form->errorSummary($model); ?>
-	 
+
     <?php echo $form->textFieldRow($model, 'name'); ?>
 	<?php echo $form->textFieldRow($model, 'email'); ?>
 	<?php echo $form->textFieldRow($model, 'subject'); ?>
     <?php echo $form->textAreaRow($model, 'body', array('class'=>'span3', 'rows'=>5)); ?>
- 
+
 	 <div class="well">
 		 <?php if(CCaptcha::checkRequirements()): ?>
 			 <?php echo $form->labelEx($model,'verifyCode'); ?>
@@ -52,12 +52,12 @@ $form = $this->beginWidget('bootstrap.widgets.BootActiveForm', array(
 	</div>
 
 </fieldset>
- 
+
 <div class="form-actions">
     <?php echo CHtml::htmlButton('<i class="icon-ok icon-white"></i> Submit', array('class'=>'btn btn-primary', 'type'=>'submit')); ?>
     <?php echo CHtml::htmlButton('<i class="icon-ban-circle"></i> Reset', array('class'=>'btn', 'type'=>'reset')); ?>
 </div>
- 
+
 <?php $this->endWidget(); ?>
 </div>
 

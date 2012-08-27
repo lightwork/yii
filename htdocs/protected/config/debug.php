@@ -24,6 +24,37 @@ $config = CMap::mergeArray(
 				'linkAssets'=>true,
 			),
 
+			/*
+			'db'=>array(
+				'connectionString' => 'mysql:host=localhost;dbname=velaapp',
+				'emulatePrepare' => true,
+				'username' => 'velaapp',
+				'password' => 've1asql',
+				'charset' => 'utf8',
+			),
+			*/
+
+			'log'=>array(
+				'class'=>'CLogRouter',
+				'routes'=>array(
+					// General log
+					array(
+						'class'=>'CFileLogRoute',
+						'levels'=>'trace,info,warning,error',
+						'logFile'=>'app.log',
+						'categories'=>'app',
+					),
+					// uncomment the following to show log messages on web pages
+
+					/*
+					 array(
+					 	'class'=>'CWebLogRoute',
+					 	'levels'=>'trace',
+					 )
+*/
+				),
+			),
+
 		), // end components
 
 	)

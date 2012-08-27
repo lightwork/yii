@@ -24,11 +24,13 @@ if(isset($this->targetElementSelector)) {
 <div class="container"><div id="flashes">
 	<?php $this->renderPartial('//parts/_flashes'); ?>
 </div></div>
+
 <div id="main">
 <?php echo $content; ?>
 </div>
 </body>
 <?php Yii::app()->getClientScript()->registerCssFile(Yii::app()->theme->baseUrl . '/css/bootstrap.css'); ?>
+<?php Yii::app()->getClientScript()->registerCssFile(Yii::app()->theme->baseUrl . '/css/demo-styles.css'); ?>
 <?php Yii::app()->getClientScript()->registerCssFile(Yii::app()->theme->baseUrl . '/css/bootstrap_test.css'); ?>
 <!-- <?php echo @$_SERVER['SERVER_ADDR']; ?> -->
 </html>

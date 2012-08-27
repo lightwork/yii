@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="span12">
 			<?php if(isset($this->breadcrumbs)):?>
-				<?php $this->widget('bootstrap.widgets.BootBreadcrumbs', array(
+				<?php $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
 					'homeLink'=>null,
 					'links'=>$this->breadcrumbs
 				)); ?>

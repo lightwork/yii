@@ -10,6 +10,7 @@ class LoginForm extends CFormModel
 	public $username;
 	public $password;
 	public $rememberMe;
+	public $guest;
 
 	private $_identity;
 
@@ -71,7 +72,9 @@ class LoginForm extends CFormModel
 			Yii::app()->user->login($this->_identity,$duration);
 			return true;
 		}
-		else
+		else {
+			$this->addError('username or password','Could not validate user credentials.');
 			return false;
+		}
 	}
 }

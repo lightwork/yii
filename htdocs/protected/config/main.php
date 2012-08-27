@@ -53,7 +53,12 @@ $config = array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 			'class' => 'WebUser',
-			'stateKeyPrefix'=>'customKeyPrefix',
+			//'stateKeyPrefix'=>'customKeyPrefix',
+		),
+
+		'authManager'=>array(
+			'class'=>'CDbAuthManager',
+			'connectionID'=>'db',
 		),
 
 		'request'=>array(
@@ -135,7 +140,7 @@ $config = array(
 
 		'session' => array (
 			// Cannot use dots in the session id :(
-			'sessionName' => 'custom_session_id',
+			//'sessionName' => 'custom_session_id',
 			//'class' => 'system.web.CDbHttpSession',
 			//'connectionID' => 'db',
 		),

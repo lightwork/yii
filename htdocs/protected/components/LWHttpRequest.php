@@ -1,12 +1,12 @@
-<?php 
+<?php
 /**
  * Custom overrides and extensions to the HttpRequest compontent
- * 
+ *
  * @property string $JsonpCallback
  * @property boolean $isJsonpRequest
  */
 class LWHttpRequest extends CHttpRequest {
-	
+
 	/**
 	 * The callback parameter when performing a jsonp request.
 	 * @var string
@@ -19,7 +19,7 @@ class LWHttpRequest extends CHttpRequest {
 	 * @var array
 	 */
 	public $developmentTlds = array();
-	
+
 	/**
 	 * Is this a jsonp request?
 	 * @return boolean
@@ -28,7 +28,7 @@ class LWHttpRequest extends CHttpRequest {
 		$jsonpCallback = $this->getParam(self::JSONP_CALLBACK);
 		return isset($jsonpCallback);
 	}
-	
+
 	/**
 	 * Get the value of the jsonp callback parameter.
 	 * @return string
@@ -57,6 +57,23 @@ class LWHttpRequest extends CHttpRequest {
 	public function getIsDevelopment()
 	{
 		return in_array($this->tld, $this->developmentTlds);
+	}
+
+	public function getRealIpAddress()
+	{
+		if (!empty($_SERVER['HTTP_CLIENT_IP']))   //check ip from share internet
+		{
+		  $ip=$_SERVER['HTTP_CLIENT_IP'];
+		}
+		elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))	//to check ip is pass from proxy
+		{
+		  $ip=$_SERVER['HTTP_X_FORWARDED_FOR'];
+		}
+		else
+		{
+		  $ip=$_SERVER['REMOTE_ADDR'];
+		}
+		return $ip;
 	}
 }
 

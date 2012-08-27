@@ -3,7 +3,7 @@
 if(Yii::app()->user->isGuest) {
 	$navitems = array(
 		array(
-			'class'=>'bootstrap.widgets.BootMenu',
+			'class'=>'bootstrap.widgets.TbMenu',
 			'items'=>array(
 				array('label'=>'Login', 'url'=>array('/site/login')),
 			)
@@ -13,7 +13,7 @@ if(Yii::app()->user->isGuest) {
 else {
 	$navitems = array(
 		array(
-			'class'=>'bootstrap.widgets.BootMenu',
+			'class'=>'bootstrap.widgets.TbMenu',
 			'items'=>array(
 				array('label'=>'Home', 'url'=>'/'),
 				array('label'=>'Links', 'url'=>'#', 'items'=>array(
@@ -24,7 +24,7 @@ else {
 		),
 		//'<form class="navbar-search pull-left" action=""><input type="text" class="search-query span2" placeholder="Search"></form>',
 		array(
-			'class'=>'bootstrap.widgets.BootMenu',
+			'class'=>'bootstrap.widgets.TbMenu',
 			'htmlOptions'=>array('class'=>'pull-right'),
 			'items'=>array(
 				//array('label'=>'Profile', 'url'=>array('/vendor/view', 'id'=>Yii::app()->user->id)),
@@ -36,7 +36,8 @@ else {
 	);
 }
 
-$this->widget('bootstrap.widgets.BootNavbar', array(
+$this->widget('bootstrap.widgets.TbNavbar', array(
+	'type'=>'inverse',
 	'fixed'=>false,
 	'brand'=>'Yii Dev App',
 	'brandUrl'=>Yii::app()->createUrl('/site/index'),

@@ -7,8 +7,8 @@
 breadcrumbs	contact.php	/^$this->breadcrumbs=array($/;"	v
 breadcrumbs	error.php	/^$this->breadcrumbs=array($/;"	v
 breadcrumbs	login.php	/^$this->breadcrumbs=array($/;"	v
-form	contact.php	/^$form = $this->beginWidget('bootstrap.widgets.BootActiveForm', array($/;"	v
-form	login.php	/^$form = $this->beginWidget('bootstrap.widgets.BootActiveForm', array($/;"	v
+form	contact.php	/^$form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array($/;"	v
+form	login.php	/^$form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array($/;"	v
 pageTitle	contact.php	/^$this->pageTitle=Yii::app()->name . ' - Contact Us';$/;"	v
 pageTitle	error.php	/^$this->pageTitle=Yii::app()->name . ' - Error';$/;"	v
 pageTitle	login.php	/^$this->pageTitle=Yii::app()->name . ' - Login';$/;"	v
